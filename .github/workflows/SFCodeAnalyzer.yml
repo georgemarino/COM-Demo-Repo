@@ -1,7 +1,7 @@
 name: Salesforce Code Analyzer Workflow
 on: 
   pull_request:
-    branches: ["Main", "UAT", "Staging", "Hotfix"]
+    branches: ["main", "uat", "staging", "hotfix"]
 jobs:
   salesforce-code-analyzer-workflow:
     runs-on: ubuntu-latest
