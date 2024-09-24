@@ -7,9 +7,9 @@
 name: Lint Code Base
 on:
   #push:
-  #  branches: [ “main”, “UAT”, “Staging”, “Hotfix” ]
+  #  branches: [ “main”, “uat”, “staging”, “hotfix” ]
   pull_request:
-    branches: [ “main”, “UAT”, “Staging”, “Hotfix”]
+    branches: [ “main”, “uat”, “staging”, “hotfix” ]
 jobs:
   run-lint:
     runs-on: ubuntu-latest
